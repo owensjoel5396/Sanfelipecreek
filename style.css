@@ -7,16 +7,43 @@ body {
     padding: 2rem 1.25rem;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: "EB Garamond", Garamond, Georgia, serif;
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-family: "EB Garamond", Garamond, Georgia, serif;
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-family: "EB Garamond", Garamond, Georgia, serif;
+    font-size: 2.6rem;
 }
 
 p {
     margin-bottom: 1.2em;
 }
 
+
+.header-image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border: 0px;
+    }
+
+.book-image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border=1px solid #0040c0;
+        padding: 4px;
+    }
+    
 img {
-    max-width: 100%;
+max-width: 100%;
     height: auto;
     display: block;
 }
